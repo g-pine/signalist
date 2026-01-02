@@ -1,10 +1,9 @@
 import { Button } from '@/components/ui/button'
-import React from 'react'
 
 const page = () => {
   return (
-    <div className='flex justify-center items-center h-screen'>
-      <Button>Home</Button>
+    <div className='flex min-h-screen home-wrapper'>
+      Home
     </div>
   )
 }
