@@ -66,7 +66,7 @@ export const MARKET_OVERVIEW_WIDGET_CONFIG = {
             ],
         },
         {
-            title: 'Technology',
+            title: 'Tech',
             symbols: [
                 { s: 'NASDAQ:AAPL', d: 'Apple' },
                 { s: 'NASDAQ:GOOGL', d: 'Alphabet' },
@@ -86,6 +86,42 @@ export const MARKET_OVERVIEW_WIDGET_CONFIG = {
                 { s: 'NYSE:V', d: 'Visa' },
             ],
         },
+        {
+            title: 'CA SC',
+            symbols: [
+                { s: 'TSX:WELL', d: 'WELL Health Technologies' },
+                { s: 'TSX:CTS', d: 'Converge Technology Solutions' },
+                { s: 'TSX:BITF', d: 'Bitfarms Ltd' },
+                { s: 'TSX:REAL', d: 'The Real Brokerage Inc' },
+                { s: 'TSX:CGX', d: 'Cineplex Inc' },
+                { s: 'TSX:SCR', d: 'Score Media and Gaming' },
+            ],
+        },
+        {
+            title: 'US SC',
+            symbols: [
+                { s: 'NASDAQ:PLTR', d: 'Palantir Technologies' },
+                { s: 'NYSE:SOFI', d: 'SoFi Technologies' },
+                { s: 'NASDAQ:RIVN', d: 'Rivian Automotive' },
+                { s: 'NYSE:UPST', d: 'Upstart Holdings' },
+                { s: 'NASDAQ:AFRM', d: 'Affirm Holdings' },
+                { s: 'NASDAQ:ROKU', d: 'Roku Inc' },
+            ],
+        },
+        {
+            title: 'Crypto',
+            symbols: [
+                { s: 'BINANCE:BTCUSDT', d: 'Bitcoin' },
+                { s: 'BINANCE:ETHUSDT', d: 'Ethereum' },
+                { s: 'BINANCE:BNBUSDT', d: 'Binance Coin' },
+                { s: 'BINANCE:ADAUSDT', d: 'Cardano' },
+                { s: 'BINANCE:XRPUSDT', d: 'Ripple' },
+                { s: 'BINANCE:SOLUSDT', d: 'Solana' },
+            ],
+        }
+
+        
+
     ],
     support_host: 'https://www.tradingview.com', // TradingView host
     backgroundColor: '#141414', // background color
