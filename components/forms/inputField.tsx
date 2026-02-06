@@ -2,7 +2,7 @@ import { Label } from '@/components/ui/label'
 import { Input } from '../ui/input'
 import { cn } from '@/lib/utils'
 
-const inputField = ({ name, label, placeholder, type= 'text', register, error, validation, disabled, value }: FormInputProps) => {
+const InputField = ({ name, label, placeholder, type= 'text', register, error, validation, disabled, value }: FormInputProps) => {
   return (
     <div className='space-y-2'>
         <Label htmlFor={name} className='form-label'>
@@ -22,4 +22,4 @@ const inputField = ({ name, label, placeholder, type= 'text', register, error, v
   )
 }
 
-export default inputField
+export default InputField
